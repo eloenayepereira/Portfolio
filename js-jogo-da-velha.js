@@ -200,7 +200,7 @@ $(function () {
             JV.ModalResultado(winner === "circle" ? "j1" : "j2");
             return true;
         }
-        if ($(".quadrado img").length === 9) {
+        if ($(".quadrado div").length === 9) {
             JV.ModalResultado("empate");
             return true;
         }
