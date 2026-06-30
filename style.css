@@ -206,6 +206,15 @@ ul { list-style: none; }
   margin-bottom: 0.5rem;
 }
 
+.hero-verciculo {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.89rem;
+  color: var(--accent-light);
+  margin-bottom: 0.5rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+
 .hero-name {
   font-size: clamp(2.4rem, 6vw, 4rem);
   font-weight: 800;
@@ -233,9 +242,9 @@ ul { list-style: none; }
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
 
 .hero-desc {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: var(--text-secondary);
-  max-width: 520px;
+  max-width: 700px;
   margin: 0 auto 2rem;
 }
 
